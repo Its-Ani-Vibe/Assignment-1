@@ -90,5 +90,56 @@
 /* Hero Banner End */
 
 /* Meet the Speakers Start */
+.speaker-root h1{
+    padding-top:80px ;
+    padding-bottom: 56px;
+    text-align: center;
+}
+   .speaker-section{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    gap: 32px;
+   
 
+   }
+   .speaker{
+    width: 640px;
+    height: 460px;
+    border: 0.1px solid rgb(145, 144, 144);
+    border-radius: 12px;
+    /* object-position: fit; */
+
+   }
+   .speaker img{
+    width: 638px;
+    height: 324px;
+    border-top-right-radius: 12px ;
+    border-top-left-radius: 12px ;
+   }
+   .speaker-tag{
+    color: #2563ebFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+    padding: 24px 0 8px 24px;
+   }
+   .speaker h3{
+    color: #0d1b2aFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.375;
+    padding-left:24px;
+   }
+   .speaker-des{
+    color: #575757FF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0 0 0px 24px;
+   }
+   
 /* Meet the Speakers End */
