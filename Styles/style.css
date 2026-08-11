@@ -327,3 +327,28 @@
 }
 
 /* Feedback End */
+
+/* Footer Start */
+.footer-root{
+    margin-top: 128px;
+    background-color: #0D1B2A;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 60px 56px;
+    color: #575757;
+    
+}
+.footer-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-list ul li {
+    
+}
+/* Footer End */
