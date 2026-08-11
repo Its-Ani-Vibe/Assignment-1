@@ -23,7 +23,20 @@
    font-weight: 700;
     color: #ffffffFF;
    background-color:  #1d4ed8FF;
+   
 
+}
+.outline-btn{
+     width: 304.66px;
+    height: 45px;
+    border-radius: 8px;
+    border-color: #2563ebFF;
+    border: 1px solid #2563EB;
+    background-color: #ffffff;
+     cursor: pointer;
+    margin-top: 20px;
+     font-size: 14px;
+    font-weight: 600;
 }
  /* Navbar Start */
 .nav-container{
@@ -143,3 +156,95 @@
    }
    
 /* Meet the Speakers End */
+
+/* Secure Your Spot Start */
+.spot-content{
+    margin-top: 136px;
+}
+.spot-text{
+    text-align: center;
+    padding-bottom: 48px;
+}
+.spot-text h1{
+  color: #0d1b2aFF;
+  font-size: 48px;
+  font-weight: 700;
+  height: 60px;
+}
+.spot-text p{
+    color: #575757FF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+.spot-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    border: 0.1px solid rgb(185, 183, 183);
+    padding: 20px 30px;
+    border-radius: 12px;
+    width: 370px;
+    height: 420px;
+}
+.card-header{
+    padding-bottom: 24px;
+}
+.card-header p{
+    color: #888888FF;
+
+}
+.card-header h1{
+    color: #0d1b2aFF;
+    font-size: 44px;
+    font-weight: 700;
+}
+.card hr{
+    width: 304px;
+    /* height: 1px; */
+    color:  #e5e7ebFF;
+    
+}
+.card ul{
+    padding-top: 24px;
+    
+}
+.card ul li {
+    color: #333333FF;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.card ul li::marker {
+  color: #2563EB; /* Put your desired color here */
+}
+
+.card-prime{
+    background-color: #0D1B2A;
+}
+.card-prime .card-header h1{
+    color: #ffffff;
+}
+.card-header .pro{
+    color:#93C5FD;
+}
+.card-prime ul li{
+    color: #ffffff;
+}
+.card-prime button{
+    width: 304.66px;
+    height: 45px;
+    border-radius: 8px;
+    border-color: #2563ebFF;
+    border: 1px solid #2563EB;
+    background-color: #2563EB;
+    color: #ffffff;
+     cursor: pointer;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    /* margin-bottom: 32p; */
+}
+/* Secure Your Spot End */
