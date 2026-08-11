@@ -201,10 +201,11 @@
     font-size: 44px;
     font-weight: 700;
 }
-.card hr{
+.card-hr{
     width: 304px;
-    /* height: 1px; */
-    color:  #e5e7ebFF;
+    height: 2px;
+    border: none;
+    background-color:  #e5e7ebFF;
     
 }
 .card ul{
@@ -248,3 +249,81 @@
     /* margin-bottom: 32p; */
 }
 /* Secure Your Spot End */
+
+/* Feedback Start */
+
+.feedback-container{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.fd-para1{
+    color:#2563EB;
+     font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+.fd-header{
+    color: #0d1b2aFF;
+  font-size: 48px;
+  font-weight: 700;
+  height: 60px;
+   padding-top: 20px;
+}
+.fd-para2{
+    color: #575757FF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 24px;
+}
+
+.fd-year{
+    color: #2B4CF2;
+    background-color: #EEF1FE;
+    width: 35%;
+    padding: 3px;
+    text-align: center;
+    /* border: 1px solid #575757; */
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.colon{
+    color: #B5C0FA;
+    font-size: 30px;
+}
+.fd-para{
+    margin: 50px 0 20px 0;
+    text-align: left;
+}
+.fd-hr{
+   width: 304px;
+   height: 1px;
+   border: none;
+   background-color: #2B4CF2;
+   margin: 20px 0 20px 0;
+}
+.fd-user{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+.fd-user-img{
+    width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #2563EB;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+/* Feedback End */
